@@ -303,10 +303,10 @@ honda1.more_seats
 
 puts "We've added seats!  #{honda1.model} now has #{honda1.seating} seats in it."
 
-
+puts "Our vehicles include: "
 all_the_vehicles.each do |vehicle|
 
-		puts " #{vehicle.model}, #{vehicle.color}"
+		puts "#{vehicle.model}, #{vehicle.color}"
 
 end	
 
